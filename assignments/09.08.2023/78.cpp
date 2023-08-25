@@ -6,7 +6,9 @@ public:
             ans.push_back(temp);
             return;
         }
+        //exclude case
         sub(nums, i+1, temp);
+        // include case
         temp.push_back(nums[i]);
         sub(nums, i+1, temp);
     }
