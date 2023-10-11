@@ -6,7 +6,7 @@ public:
             output = output + s;
             a=a-1;
         }
-        return output;
+        return output; 
     }
     void parent(int i, int j, int k, int n, string str, vector<string>& ans){
         if(j==n){

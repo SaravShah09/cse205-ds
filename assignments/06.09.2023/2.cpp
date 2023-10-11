@@ -7,6 +7,8 @@ public:
         ListNode* head1 = l1;
         ListNode* head2 = l2;
 
+        
+
         int carry = 0;
 
         while(head1 != NULL && head2 != NULL){
